@@ -66,5 +66,8 @@ public class ApiTest {
                 .delete("/Account/v1/User/" + userID)
         .then()
                 .statusCode(204);
+
+
+
     }
 }

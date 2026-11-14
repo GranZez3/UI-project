@@ -23,7 +23,7 @@ public class ProgressBarTest extends BaseTest {
 
         page.buttonCLick();
 
-        wait.until(d -> Integer.parseInt(page.getProgressBarValue()) >= 25);
+        wait.until(d -> Integer.parseInt(page.getProgressBarValue()) >= 30);
 
         page.buttonCLick();
 
